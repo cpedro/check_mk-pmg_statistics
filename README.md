@@ -11,7 +11,7 @@ For now, all you need to do to use this plugin is the following:
 1. Copy `plugins/mk_pmg.sh` to the Proxmox Mail Gateway server.  Put it in the
   plugin directory to be run by `check_mk_agent`.  In Linux, this directory is
   `/usr/lib/check_mk_agent/plugins`.
-1. Copy the following:
+1. On the Check_MK server, copy the following files:
     * `checkman/pmg_statistics` to `${OMD_ROOT}/local/share/check_mk/checkman/`
     * `checks/pmg_statistics` to `${OMD_ROOT}/local/share/check_mk/checks/`
     * `web/plugins/metrics/pmg_statistics.py` to
