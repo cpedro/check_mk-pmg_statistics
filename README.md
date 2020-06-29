@@ -14,7 +14,6 @@ For now, all you need to do to use this plugin is the following:
 1. On the Check_MK server, copy the following files:
     * `checkman/pmg_statistics` to `${OMD_ROOT}/local/share/check_mk/checkman/`
     * `checks/pmg_statistics` to `${OMD_ROOT}/local/share/check_mk/checks/`
-    * `web/plugins/metrics/pmg_statistics.py` to
-    `${OMD_ROOT}/local/share/check_mk/web/plugins/metrics/`
+    * `web/plugins/*` to `${OMD_ROOT}/local/share/check_mk/web/plugins/`
 1. Rescan you PMG server, and add the new metric.
 
