@@ -93,6 +93,7 @@ check_info['pmg_statistics'] = {
     'inventory_function': inventory_pmg_stats,
     'check_function': check_pmg_stats,
     'service_description': 'PMG /statistics/%s',
+    'group': 'pmg_statistics',
     'default_levels_variable': 'pmg_stats_default_levels',
     'has_perfdata': True,
 }
