@@ -1,8 +1,11 @@
+# THIS REPO IS ARCHIVED
+
+Code has been moved to cpedro/check_mk_plugins.
+
 # Check_MK Plugin for Proxmox Mail Gateway Statistics
 
 Along with the plugin agent, it will run `pmgsh get /statistics/mail` and
 monitor the statistics reported back.
-
 
 ## Installation
 
